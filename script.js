@@ -11,7 +11,7 @@ function createHeart() {
 
     let points = [];
 
-    for (let t = 0; t < Math.PI * 2; t += 0.05) {
+    for (let t = 0; t < Math.PI * 2; t += 0.09) {
 
         const x = 16 * Math.pow(Math.sin(t), 3);
 
